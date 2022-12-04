@@ -125,7 +125,7 @@ const ContentPage = () =>{
         <Container>
             <Row style={{borderRadius:"10px"}} className="shadow-lg mb-5">
               <Col xs={12} className="px-0">
-         <h3 className="display-4 text-left mb-3 aboutUsContainer pl-3 py-2"><b>Get To Know <span>Us</span></b></h3>
+         <h3 className="display-4 text-left mb-3 connentingContainer pl-3 py-2"><b>Get To Know <span>Us</span></b></h3>
               </Col>
               <Col style={{fontSize:"17px"}} xs={12}>
               <p className="text-left mt-5">We are just couple of friends and developers who were wondering that it would be <b>amazing</b> if we get our own server in our favorite game <b>Rust.</b> So here we are ,
@@ -134,7 +134,7 @@ const ContentPage = () =>{
                 <p className="text-left"><b>Want to get in touch? Check out our Contacts</b></p>
               </Col>
               <Col xs={12} className="px-0">
-              <h3 className="display-4 text-left mb-3 aboutUsContainer pl-3 py-2 mt-4"><b>Rules Of Server</b></h3>
+              <h3 className="display-4 text-left mb-3 connentingContainer pl-3 py-2 mt-4"><b>Rules Of Server</b></h3>
               </Col>
               <Col xs={12}>
               <button
@@ -144,7 +144,7 @@ const ContentPage = () =>{
         className="text-white mt-5 p-2"
         style={{fontSize:"20px",width:"100%",backgroundColor:"#23293D",border:"none",borderRadius:"10px 25px 10px 25px"}}
       >
-      <div className="d-flex justify-content-between "><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/><b>Cheating Or Scripting</b></span> {open === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>} </div>
+      <div className="d-flex justify-content-between "><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/></span><b>Cheating Or Scripting</b> {open === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>} </div>
       </button>
       <Collapse in={open}>
         <div id="example-collapse-text" className="text-left px-3" style={{fontSize:"17px"}}>
@@ -162,7 +162,7 @@ This includes scripts which can perform any action that is otherwise not possibl
         className="text-white mt-1 p-2"
         style={{fontSize:"20px",width:"100%",backgroundColor:"#23293D",border:"none",borderRadius:"10px 25px 10px 25px"}}
       >
-      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/><b>  Ban Evasion </b></span>{open2 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
+      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/></span><b>  Ban Evasion </b>{open2 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
       </button>
       <Collapse in={open2}>
         <div id="example-collapse-text" className="text-left px-3" style={{fontSize:"17px"}}>
@@ -184,7 +184,7 @@ If you are over 365 days with only 1 Rust Gameban and no issues since that time 
         className="text-white mt-1 p-2"
         style={{fontSize:"20px",width:"100%",backgroundColor:"#23293D",border:"none",borderRadius:"10px 25px 10px 25px"}}
       >
-      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/><b>  VAC And  Non-Rust Bans </b></span>{open3 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
+      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/></span><b>  VAC And  Non-Rust Bans </b>{open3 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
       </button>
       <Collapse in={open3}>
         <div id="example-collapse-text" className="text-left px-3" style={{fontSize:"17px"}}>
@@ -203,7 +203,7 @@ If you connect with one, you will be auto-banned for 1 month. All appeals will b
         className="text-white mt-1 p-2"
         style={{fontSize:"20px",width:"100%",backgroundColor:"#23293D",border:"none",borderRadius:"10px 25px 10px 25px"}}
       >
-      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/><b>  Bug Abuse </b></span>{open4 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
+      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/></span><b>  Bug Abuse </b>{open4 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
       </button>
       <Collapse in={open4}>
         <div id="example-collapse-text" className="text-left px-3" style={{fontSize:"17px"}}>
@@ -224,7 +224,7 @@ Any players found inside of the terrain will also be banned.
         className="text-white mt-1 p-2"
         style={{fontSize:"20px",width:"100%",backgroundColor:"#23293D",border:"none",borderRadius:"10px 25px 10px 25px"}}
       >
-      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/><b>  Malicious Behavior </b></span>{open5 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
+      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/></span><b>  Malicious Behavior </b>{open5 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
       </button>
       <Collapse in={open5}>
         <div id="example-collapse-text" className="text-left px-3" style={{fontSize:"17px"}}>
@@ -243,7 +243,7 @@ This includes, but is not limited to, spam crafting, mass despawning, and spammi
         className="text-white mt-1 p-2"
         style={{fontSize:"20px",width:"100%",backgroundColor:"#23293D",border:"none",borderRadius:"10px 25px 10px 25px"}}
       >
-      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/><b>  No Walling Off Outpost </b></span>{open6 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
+      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/></span><b>  No Walling Off Outpost </b>{open6 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
       </button>
       <Collapse in={open6}>
         <div id="example-collapse-text" className="text-left px-3" style={{fontSize:"17px"}}>
@@ -261,7 +261,7 @@ If you are found to be doing this, entities will be removed without replacement.
         className="text-white mt-1 p-2"
         style={{fontSize:"20px",width:"100%",backgroundColor:"#23293D",border:"none",borderRadius:"10px 25px 10px 25px"}}
       >
-      <div className="d-flex justify-content-between align-items-center"><span className="pl-4" style={{maxWidth:"100%"}}><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/><b>  Harrassment & Toxic Behavior </b></span>{open7 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
+      <div className="d-flex justify-content-between align-items-center"><span className="pl-4" style={{maxWidth:"100%"}}><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/></span><b>  Harrassment & Toxic Behavior </b>{open7 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
       </button>
       <Collapse in={open7}>
         <div id="example-collapse-text" className="text-left px-3" style={{fontSize:"17px"}}>
@@ -281,7 +281,7 @@ Any release of personal real life information (doxxing) will result in the immed
         className="text-white mt-1 p-2"
         style={{fontSize:"20px",width:"100%",backgroundColor:"#23293D",border:"none",borderRadius:"10px 25px 10px 25px"}}
       >
-      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/><b>  VPN/Proxy Connections </b></span>{open8 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
+      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/></span><b>  VPN/Proxy Connections </b>{open8 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
       </button>
       <Collapse in={open8}>
         <div id="example-collapse-text" className="text-left px-3" style={{fontSize:"17px"}}>
@@ -298,7 +298,7 @@ Any release of personal real life information (doxxing) will result in the immed
         className="text-white mt-1 p-2"
         style={{fontSize:"20px",width:"100%",backgroundColor:"#23293D",border:"none",borderRadius:"10px 25px 10px 25px"}}
       >
-      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/><b>  Stream Sniping </b></span>{open9 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
+      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/></span><b>  Stream Sniping </b>{open9 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
       </button>
       <Collapse in={open9}>
         <div id="example-collapse-text" className="text-left px-3" style={{fontSize:"17px"}}>
@@ -320,7 +320,7 @@ Failure to have the basic protections in place on a stream will be cause for clo
         className="text-white mt-1 p-2"
         style={{fontSize:"20px",width:"100%",backgroundColor:"#23293D",border:"none",borderRadius:"10px 25px 10px 25px"}}
       >
-      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/><b>  Hacker Association </b></span>{open10 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
+      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/></span><b>  Hacker Association </b>{open10 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
       </button>
       <Collapse in={open10}>
         <div id="example-collapse-text" className="text-left px-3" style={{fontSize:"17px"}}>
@@ -339,7 +339,7 @@ Repeat offenders risk being permanently banned.
         className="text-white mt-1 p-2"
         style={{fontSize:"20px",width:"100%",backgroundColor:"#23293D",border:"none",borderRadius:"10px 25px 10px 25px"}}
       >
-      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/><b>  Miscellaneous </b></span>{open11 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
+      <div className="d-flex justify-content-between align-items-center"><span className="pl-4"><FaRegArrowAltCircleRight className="mb-1 mr-3" color="red"/></span><b>  Miscellaneous </b>{open11 === true ? <FaAngleDown className="pr-2" fontSize={30}/> : <FaAngleLeft className="pr-2" fontSize={30}/>}</div>
       </button>
       <Collapse in={open11}>
         <div id="example-collapse-text" className="text-left px-3" style={{fontSize:"17px"}}>
