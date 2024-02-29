@@ -2,7 +2,8 @@ import { Col, Container, Nav, Navbar } from "react-bootstrap";
 import "../Styles/customFooter.css"
 import React from "react"
 
-const Footer = () => <footer className="page-footer font-small blue text-black">
+const Footer = () => 
+<footer className="page-footer font-small blue text-black">
     <div className="container-fluid text-left text-md-left pt-5" style={{backgroundColor:"#C1C1C1"}}>
         <div className="row footerContainer">
             <div className="col-md-10 mt-md-0 mt-3">

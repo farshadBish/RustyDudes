@@ -353,10 +353,10 @@ Repeat offenders risk being permanently banned.
           </Container>
         </Tab.Pane>
         <Tab.Pane eventKey="third">
-          hehe
+          Under development
         </Tab.Pane>
         <Tab.Pane eventKey="forth">
-          hehe
+          Under development
         </Tab.Pane>
       </Tab.Content>
     </Col>
